@@ -1,0 +1,16 @@
+@import "mixins";
+@import "fonts";
+@import "vendor";
+@import "vars";
+@import "settings";
+
+
+
+@media screen and (max-width:320px){
+  .header{
+  
+    width:300px;
+    height:100vh;
+    background-color: rgb(3, 3, 3);
+  }
+}
